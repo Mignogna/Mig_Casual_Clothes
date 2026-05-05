@@ -1,3 +1,5 @@
+<img width="580" height="240" alt="Image" src="https://github.com/user-attachments/assets/7cad07ab-15d2-4d9f-9847-3e7e62826996" />
+
 # 👕 Mig Casual Clothes - Landing Page
 
 Uma landing page de moda conceitual e responsiva, desenvolvida com um design minimalista e transições dinâmicas entre seções. O projeto destaca coleções sazonais utilizando sliders verticais e uma navegação fluida.
