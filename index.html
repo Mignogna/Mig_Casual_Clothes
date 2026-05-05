@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Mig Casual Clothes</title>
+</head>
+
+<body>
+    <header>
+        <a class="logo"><img src="./assets/logo.png" alt="logo"></a>
+        <a href="#" class="menu" onclick="toggleMenu()"><ion-icon name="grid-outline"></ion-icon></a>
+        <ul class="nav">
+            <li><a href="#">Women</a></li>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">New Collection</a></li>
+        </ul>
+        <ul class="nav-mobile">
+            <li><a href="#">Women</a></li>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">New Collection</a></li>
+        </ul>
+    </header>
+    <div class="banner">
+        <div class="content">
+            <h1 class="title">Fashion</h1>
+            <a href="#" class="btn" onclick="toggleBanner()">Browse <ion-icon name="arrow-back-circle-outline">
+                </ion-icon></a>
+            <a href="#" class="arrow" onclick="toggleBanner()"><ion-icon
+                    name="arrow-forward-circle-outline"></ion-icon></a>
+        </div>
+    </div>
+    <div class="banner-middle">
+        <div class="container">
+            <!-- Slider main container -->
+            <div class="swiper-women">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="./assets/woman_1.png"></div>
+                    <div class="swiper-slide"><img src="./assets/woman_2.png"></div>
+                    <div class="swiper-slide"><img src="./assets/woman_3.png"></div>
+                    <div class="swiper-slide"><img src="./assets/woman_4.png"></div>
+                    <div class="swiper-slide"><img src="./assets/woman_5.png"></div>
+                </div>
+            </div>
+            <div class="swiper-men">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="./assets/man_1.png"></div>
+                    <div class="swiper-slide"><img src="./assets/man_2.png"></div>
+                    <div class="swiper-slide"><img src="./assets/man_3.png"></div>
+                    <div class="swiper-slide"><img src="./assets/man_4.png"></div>
+                    <div class="swiper-slide"><img src="./assets/man_5.png"></div>
+                </div>
+            </div>
+            <div class="swiper-new">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="./assets/man_6.png"></div>
+                    <div class="swiper-slide"><img src="./assets/woman_6.png"></div>
+                    <div class="swiper-slide"><img src="./assets/man_7.png"></div>
+                    <div class="swiper-slide"><img src="./assets/woman_7.png"></div>
+                    <div class="swiper-slide"><img src="./assets/woman_8.png"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="banner-right">
+        <h1>Spring</h1>
+        <span class="number">/01</span>
+        <div class="content">
+            <img src="./assets/woman_1.png">
+            <div class="description">
+                <h3>Seasonal</h3>
+                <span>Blog | 08 Aug 2023 | Trending</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non perspiciatis quo, dicta cupiditate
+                    quibusdam ipsam odit reiciendis. Doloremque, sequi facere cumque quia, sint autem hic aspernatur,
+                    debitis accusantium ab sit.</p>
+                <a href="#">Read more <ion-icon name="arrow-forward-outline"></ion-icon></a>
+            </div>
+        </div>
+        <div class="footer-content">
+             <p>&copy; 2026 Mig Casual Clothes - Educational Purposes</p>
+        <p>Developed by <a href="https://linkedin.com/in/helenamignogna/" target="_blank">Helena
+                Mignogna</a></p>
+        <p>Based on a tutorial by <a href="https://youtu.be/cLv8IWRO0wc?si=FpYlokGYM1SCMtD2" target="_blank">DStudio Technology</a></p>
+        </div>
+        <div class="social-media">
+            <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="./scrpt.js"></script>
+</body>
+
+</html>
